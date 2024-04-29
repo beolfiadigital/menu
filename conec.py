@@ -18,4 +18,4 @@ def submit():
 
 if __name__ == '__main__':
     # Executa o Flask para ser acessível em todas as interfaces de rede
-    app.run(host='0.0.0.0', debug=True)
+    app.run(port=4444, debug=True)
